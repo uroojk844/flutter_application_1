@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+// ignore: use_key_in_widget_constructors
 class HomePage extends StatelessWidget {
   final int days = 24;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
